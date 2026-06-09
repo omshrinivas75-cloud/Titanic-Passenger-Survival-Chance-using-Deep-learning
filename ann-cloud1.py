@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 import tensorflow
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 
 # Load model
 model = load_model("model.h5")
